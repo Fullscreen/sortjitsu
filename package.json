@@ -1,0 +1,41 @@
+{
+  "name": "sortjitsu",
+  "version": "1.0.0",
+  "description": "jQuery plugin to filter page elements based on url search parameters",
+  "main": "jquery.sortjitsu.js",
+  "scripts": {
+    "test": "echo \"Use $ gulp test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fullscreen/sortjitsu.git"
+  },
+  "keywords": [
+    "jQuery",
+    "sort",
+    "sortjitsu"
+  ],
+  "author": "fullscreen",
+  "bugs": {
+    "url": "https://github.com/Fullscreen/sortjitsu/issues"
+  },
+  "homepage": "https://github.com/Fullscreen/sortjitsu#readme",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.7",
+    "gulp-jshint": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^3.1.0",
+    "jshint": "^2.9.2",
+    "karma": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-jquery": "^0.1.1",
+    "karma-phantomjs-launcher": "^1.0.1"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}

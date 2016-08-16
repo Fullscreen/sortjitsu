@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery.sortjitsu demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>
+          <a href="https://github.com/Fullscreen/sortjitsu">jquery.sortjitsu.js</a>
+        </h1>
+      </div>
+      <div class="row">
+        <ul>
+          <li><a href="./">clear search query params</a></li>
+          <li><a href="?sort=title">sort by title</a></li>
+          <li><a href="?sort=-title">sort by title reversed</a></li>
+          <li><a href="?sort=released-on">sort by release date</a></li>
+          <li><a href="?sort=-released-on">sort by release date reversed</a></li>
+          <li><a href="?sort=view-count">sort by view count</a></li>
+          <li><a href="?sort=-view-count">sort by view count reversed</a></li>
+        </ul>
+      </div>
+      <div class="sortjitsu-wrapper row">
+        <div data-sortable>
+          <h1 data-title="Chicken Run">Chicken Run (2017)</h1>
+          <span data-released-on="2017-11-17">Released on November 17th, 2017</span>
+          <span data-view-count="5">5M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Jay and Silent Bob">Jay and Silent Bob (2017)</h1>
+          <span data-released-on="2017-07-26">Released on July 26th, 2017</span>
+          <span data-view-count="9">9M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Dawn of the Dead">Dawn of the Dead (2017)</h1>
+          <span data-released-on="2017-02-09">Released on February 9th, 2017</span>
+          <span data-view-count="7">7M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Batman">Batman (2017)</h1>
+          <span data-released-on="2017-09-23">Released on September 23rd, 2017</span>
+          <span data-view-count="3">3M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Airbud">Airbud (2017)</h1>
+          <span data-released-on="2017-03-05">Released on March 5th, 2017</span>
+          <span data-view-count="8">8M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="G.I. Joe">G.I. Joe (2017)</h1>
+          <span data-released-on="2017-02-06">Released on February 6th, 2017</span>
+          <span data-view-count="4">4M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Finding Dory">Finding Dory (2017)</h1>
+          <span data-released-on="2017-12-29">Released on December 29th, 2017</span>
+          <span data-view-count="1">1M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Endless Summer">Endless Summer (2017)</h1>
+          <span data-released-on="2017-01-12">Released on January 12th, 2017</span>
+          <span data-view-count="6">6M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Independence Day">Independence Day (2017)</h1>
+          <span data-released-on="2017-03-13">Released on March 13th, 2017</span>
+          <span data-view-count="10">10M</span>
+        </div>
+        <div data-sortable>
+          <h1 data-title="Her">Her (2017)</h1>
+          <span data-released-on="2017-06-20">Released on June 20th, 2017</span>
+          <span data-view-count="2">2M</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="dist/jquery.sortjitsu.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.fn.sortjitsu();
+      });
+    </script>
+  </body>
+</html>

@@ -16,7 +16,7 @@ or
 ```shell
  $ python -m SimpleHTTPServer 3000
 ```
-Navigate to [http://localhost:3000](http://localhost:3000)
+Navigate to [http://localhost:3000/docs](http://localhost:3000/docs)
 
 ## How to use
 The sortjitsu plugin is initialized by being called off of jQuery.fn (or $.fn). The plugin

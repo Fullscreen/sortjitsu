@@ -1,5 +1,5 @@
 /**
- * sortjitsu - jQuery plugin to filter page elements based on url search parameters
+ * sortjitsu - jQuery plugin to sort page elements based on url search parameters
  * @version v1.0.0
  * @link https://github.com/Fullscreen/sortjitsu#readme
  * @license MIT

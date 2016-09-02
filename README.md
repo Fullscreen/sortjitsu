@@ -76,7 +76,7 @@ install the devDependencies.
  ... edit jquery.sortjitsu.js
  ... look in terminal for gulp output as you save
  $ python -m SimpleHTTPServer 3000
- ... test in [browser](http://localhost:3000)
+ ... test in [browser](http://localhost:3000/docs)
 ```
 
 ## Testing with Karma + Jasmine-jQuery

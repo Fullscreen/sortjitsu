@@ -24,7 +24,7 @@ accepts an options object which will override the defaults defined within the pl
 
 Sortjitsu assumes a few things about the HTML and the URL structure on the page which it is
 initialized. The `DATA_SORTABLE` selector is required on an element that wraps the main content
-which will be filtered. From there the data fields must match the value after `?sort=` in the url
+which will be sorted. From there the data fields must match the value after `?sort=` in the url
 to be sorted.
 
 Below is an example of how sortjitsu could be structured in HTML and initialized in javascript.

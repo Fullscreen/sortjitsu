@@ -1,7 +1,7 @@
 {
   "name": "sortjitsu",
   "version": "1.0.0",
-  "description": "jQuery plugin to filter page elements based on url search parameters",
+  "description": "jQuery plugin to sort page elements based on url search parameters",
   "main": "jquery.sortjitsu.js",
   "scripts": {
     "test": "echo \"Use $ gulp test\" && exit 1"

@@ -27,6 +27,9 @@ initialized. The `DATA_SORTABLE` selector is required on an element that wraps t
 which will be sorted. From there the data fields must match the value after `?sort=` in the url
 to be sorted.
 
+To sort elements in reverse order added the `-` character before the keyword after `sort=`. For
+example, to sort by `name`s in reverse the URL would look like `?sort=-name`.
+
 Below is an example of how sortjitsu could be structured in HTML and initialized in javascript.
 ```html
   <!-- links to change url and cause sorting -->
